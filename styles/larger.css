@@ -1,0 +1,300 @@
+/* Media Queries for Larger Screens */
+
+/* Tablet Screens (768px and up) */
+@media (min-width: 768px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    .navbar {
+        max-height: none;
+        overflow: visible;
+        background-color: var(--background-dark);
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        gap: 0;
+    }
+
+    .navbar a {
+        border-left: none;
+        border-bottom: 4px solid transparent;
+        padding: 1rem;
+        text-align: center;
+        flex: 1;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+        border-bottom-color: var(--accent-color);
+        border-left: none;
+        background-color: var(--background-dark);
+    }
+
+    /* Two-column layout for sections */
+    .main-content-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .about-me {
+        grid-column: 1;
+    }
+
+    .student-photo {
+        grid-column: 2;
+    }
+
+    .courses-section {
+        grid-column: 1 / -1;
+    }
+
+    .filter-buttons {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .courses-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .course-card {
+        border-left-width: 6px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Desktop Screens (1024px and up) */
+@media (min-width: 1024px) {
+    main {
+        padding: 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    .about-me p,
+    .student-photo img {
+        padding: 1rem;
+    }
+
+    .student-photo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .student-photo img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .courses-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .course-card {
+        padding: 1.5rem;
+    }
+
+    .filter-buttons {
+        gap: 1rem;
+    }
+
+    .social-links {
+        gap: 2rem;
+    }
+
+    .social-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Large Desktop Screens (1200px and up) */
+@media (min-width: 1200px) {
+    main {
+        padding: 3rem 2rem;
+    }
+
+    .courses-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    section {
+        padding: 2.5rem;
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .social-links {
+        justify-content: flex-start;
+    }
+
+    .footer-info {
+        text-align: center;
+    }
+
+    .last-modified {
+        text-align: right;
+    }
+}
+
+/* Extra Large Screens (1440px and up) */
+@media (min-width: 1440px) {
+    main {
+        padding: 3rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 3rem;
+    }
+
+    .courses-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Landscape Orientation Optimization */
+@media (max-height: 600px) and (orientation: landscape) {
+    h1 {
+        margin-bottom: 0.5rem;
+    }
+
+    h2 {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    section {
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Hover Effects for Desktop */
+@media (hover: hover) and (pointer: fine) {
+    .course-card {
+        cursor: pointer;
+    }
+
+    .course-card:hover {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        transform: translateY(-4px);
+    }
+
+    .filter-btn:hover {
+        transform: scale(1.05);
+    }
+
+    .social-links a:hover {
+        transform: scale(1.2);
+    }
+}
+
+/* Reduced Motion Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-light: #1a1a1a;
+        --text-dark: #e0e0e0;
+        --border-color: #444;
+    }
+
+    body {
+        background-color: #0a0a0a;
+        color: var(--text-dark);
+    }
+
+    section {
+        background-color: #1a1a1a;
+        color: var(--text-dark);
+    }
+
+    .course-card {
+        background-color: #222;
+    }
+
+    .course-card.completed {
+        background-color: rgba(46, 125, 50, 0.2);
+    }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: more) {
+    :root {
+        --primary-color: #000;
+        --secondary-color: #ff0000;
+        --accent-color: #ffff00;
+    }
+
+    body {
+        border: 2px solid var(--primary-color);
+    }
+
+    section {
+        border: 2px solid var(--primary-color);
+    }
+}
+
+/* Mobile First Optimization */
+@media (max-width: 767px) {
+    .navbar a {
+        padding: 1rem;
+    }
+
+    .filter-buttons {
+        gap: 0.25rem;
+    }
+
+    .filter-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.9rem;
+    }
+
+    .courses-container {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        padding: 0.75rem;
+    }
+
+    section {
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+    }
+}
