@@ -218,9 +218,9 @@ section p {
 }
 
 .filter-btn.active {
-    background-color: var(--secondary-color);
+    background-color: #b71c1c;
     color: white;
-    border-color: var(--secondary-color);
+    border-color: #b71c1c;
 }
 
 .credits-info {
@@ -228,6 +228,8 @@ section p {
     font-weight: bold;
     margin: 1rem 0;
     font-size: 0.95rem;
+    color: var(--text-dark);
+    background-color: white;
 }
 
 /* Courses Container */
