@@ -1,0 +1,168 @@
+/* Larger Screens - Tablet and Desktop */
+
+@media (min-width: 768px) {
+    /* Header Adjustments */
+    .header-top {
+        padding: 0 1rem;
+    }
+
+    .header-info h1 {
+        font-size: 2rem;
+    }
+
+    /* Navigation */
+    .menu-toggle {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex !important;
+        background-color: var(--secondary-color);
+        flex-direction: row;
+        padding: 0;
+        list-style: none;
+    }
+
+    .nav-menu li {
+        flex: 1;
+    }
+
+    .nav-menu li a {
+        border-bottom: none;
+        text-align: center;
+        padding: 1rem;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-menu li:last-child a {
+        border-right: none;
+    }
+
+    .nav-menu li a:hover,
+    .nav-menu li a.active {
+        background-color: var(--primary-color);
+    }
+
+    /* Members Grid */
+    .members-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .members-grid.list-view {
+        grid-template-columns: 1fr;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    /* Main Content */
+    main {
+        padding: 2rem;
+    }
+
+    .directory-section h2 {
+        font-size: 2.5rem;
+    }
+
+    /* Members Grid */
+    .members-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .members-grid.list-view {
+        grid-template-columns: 1fr;
+    }
+
+    /* Member Card - Full Grid View */
+    .member-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .member-image {
+        height: 250px;
+    }
+
+    /* View Controls */
+    .view-controls {
+        max-width: fit-content;
+    }
+
+    .view-btn {
+        padding: 0.75rem 1.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .members-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Print Styles */
+@media print {
+    header,
+    nav,
+    .view-controls {
+        display: none;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    .members-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .member-card {
+        page-break-inside: avoid;
+        border: 1px solid #dddd;
+    }
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: more) {
+    :root {
+        --primary-color: #000;
+        --secondary-color: #000;
+        --accent-color: #ffff00;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1e1e1e;
+        color: #e0e0e0;
+    }
+
+    .member-card {
+        background-color: #2d2d2d;
+    }
+
+    .member-name {
+        /* color: #80d4ff; */
+        color: #80d4ff;
+    }
+
+    .member-description {
+        /* color: #b0b0b0; */
+         color: #ffffff;
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}

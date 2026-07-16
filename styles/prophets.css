@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(180deg, #f0f4ff 0%, #ffffff 100%);
+    color: #1f2937;
+    line-height: 1.5;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+header,
+footer {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+header h1 {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    letter-spacing: 0.04em;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto 2rem;
+}
+
+#cards {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    align-items: start;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    border-radius: 18px;
+    padding: 1.4rem;
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.card h2 {
+    font-size: 1.4rem;
+    color: #111827;
+}
+
+.birth-info {
+    font-size: 0.98rem;
+    color: #475569;
+}
+
+.portrait {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-top: 0.4rem;
+}
+
+footer {
+    color: #334155;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 550px) {
+    body {
+        padding: 0.75rem;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+}

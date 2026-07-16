@@ -1,0 +1,101 @@
+Overview
+Begin the Chamber of Commerce project by starting with the directory page. Last week you selected a city or region to base your project upon and were introduced to the chamber project's purpose and scope. This assignment has you work on the site layout and specific requirements for the content of the chamber of commerce directory page.
+
+Instructions
+Review the Project Scope
+Review the chamber of commerce project description.
+Review the chamber of commerce project site planning document.
+File and Folder Setup
+Add a new folder to your main wdd231 directory named "chamber".
+The chamber folder will contain all of the project's pages and assets. This subfolder is like its own, independent website.
+
+In the new chamber subfolder, add a new file named "directory.html".
+Add the common subfolders to the chamber folder to store and organize the images, CSS, and JavaScript.
+HTML
+In your directory.html document, add the standard head and meta content with a valid title, description, and author.
+Design and include a favicon for your chamber site.
+Add FaceBook social media meta settings for the
+title
+description
+image
+url
+Testing Social Media Meta Data
+Use the site plan to create the required content and layout for the header, navigation, and footer. These items should be consistent between all the pages of the project. Do not include the body content from the example site plan for this assignment. It will be used when you create the landing page next week.
+The footer is required to have contact information and some additional development information as shown in the site plan wireframes. Include your full name, WDD 231, and the last modification date of the page which is generated automatically using JavaScript.
+The main content of the directory page will display a list of members as a grid of 'cards' or as a line item list, depending upon the user's selection.
+CSS
+Style your page using your planned color scheme. Remember that the style will be used on all the pages of your chamber project. It is normal for you to make adjustments as you work on the project throughout the course.
+The directory page is the first page of the project. It is important to get the layout and design correct before moving on to the other pages. The directory page will be used as a template for the other pages in the project.
+
+Use a normalize or reset CSS. Be sure to link it before any other CSS file in the head.
+Next link a small.css followed by a larger.css file (We practiced this in week 1). Modify the small and larger css files as needed for each new page you add. Do NOT add additional CSS files for each new page!
+Every page on the site must be responsive from 320px to wider views without any horizontal scrolling.
+The responsive, main navigation menu must support the pages listed in the site plan.
+You may NOT use a CSS framework like Bootstrap or Tailwind CSS for this project. All CSS must be your own creation.
+
+JavaScript
+Create a file named "members.json" and store it in a new folder named "data" in your existing chamber project folder.
+Create an array of at least seven (7) companies where each entry includes the following fields
+company name
+company addresses
+company phone number
+company website URL
+image file name with extension (find images in image folder named image1, image2, image3, image4, image5, image6, image7)
+membership level (1=member, 2=silver, 3=gold)
+other information you deem appropriate
+The company information: company abc, 123, 456, def, ghi, etc. The important thing is that you are able to create page information from a JSON data source.
+
+Using the JSON data source, display the member information on the page using the fetch method and async/await functionality.
+Let the user toggle between a "grid" type view of member cards or a simple, one-column list of members.
+Code Example: User Layout View Selection
+A JavaScript code demonstration of toggling between a grid and list view.
+
+Illustrative Example: Check images of Screenshots of Directory Page in the images folder
+
+Using JavaScript, display the copyright year in the footer and the last modification date.
+Testing
+Continuously check your work by rendering locally in your browser using the Live Server tool in VS Code.
+Use the browser's DevTools to check for JavaScript runtime errors in the console or click the red, error icon in the upper right corner of DevTools.
+Use DevTools CSS Overview to check the color contrast accessibility.
+Generate a DevTools Lighthouse report in the Accessibility, Best Practices, and SEO categories for both the mobile and Desktop views. Correct any issues found that are within your control.
+
+
+
+
+
+
+Site Name
+JOS Chamber of Commerce
+
+Site Purpose
+This website will serve as a resource hub for businesses in the city of Jos. The site will provide information on local events, host networking opportunities, create business directories, and encourage local shopping. It aims to promote local economic growth, support local businesses, and foster a sense of community between the businesses.
+
+Target Market
+Business owners and patrons in the city of Jos and surrounding areas.
+
+Site Goals
+Improve member engagement by providing valuable resources and networking opportunities.
+Attract new businesses and encourage economic development in the community.
+Improve the visibility and reputation of the chamber as a trusted authority in local business matters.
+
+User Personas
+Small Business Owner: Mary is a 35-year-old entrepreneur who owns a small boutique shop in town. She is looking for networking opportunities, business resources, and marketing support to help grow her business.
+Corporate Executive: Datus is a 47-year-old executive at a large company looking for growth opportunities. His company is interested in partnership opportunities, economic development resources, and networking with other business leaders in the area
+The New Resident: Bess recently moved into the community and is looking to learn more about services available in the area. He is interested in finding business directories, event calendars, and community service opportunities.
+Scenarios
+A local business owner is interested in joining the chamber of commerce to network with other business owners. They visit the website to find information on membership benefits, fees, and how to apply.
+A community member is looking for upcoming events and workshops hosted by the chamber. They visit the website to browse the events calendar and register for interesting activities.
+A visitor from out of town is considering relocating to the area and wants to learn more about the local business environment. They explore the chamber's website for information on existing businesses, availability of skilled labor, and quality of life in the area.
+SEO Plan
+Use relevant keywords in site descriptions, content, and blog posts.
+Verify the site on Google's Business Profile.
+Get inbound links or backlinks from all member business to improve rankings.
+Embed Google Analytics in all site pages.
+
+Design Brief
+Primary Color: ______
+Secondary Color: ______
+Background Color: ______
+Text Color: ______
+Font Family: _____________________
+

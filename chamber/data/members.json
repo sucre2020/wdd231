@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Jos Enterprises Ltd",
+    "address": "123 Business Ave, Jos, Plateau",
+    "phone": "+234 8033 445 566",
+    "website": "https://www.josenterprises.com",
+    "image": "../images/image1.webp",
+    "membership": 3,
+    "description": "Leading manufacturing and export company"
+  },
+  {
+    "id": 2,
+    "name": "Cultural Tourism Jos",
+    "address": "456 Heritage St, Jos, Plateau",
+    "phone": "+234 8044 556 677",
+    "website": "https://www.culturaltourismjos.com",
+    "image": "../images/image2.webp",
+    "membership": 2,
+    "description": "Tourism and hospitality services"
+  },
+  {
+    "id": 3,
+    "name": "Tech Innovation Hub",
+    "address": "789 Digital Rd, Jos, Plateau",
+    "phone": "+234 8055 667 788",
+    "website": "https://www.techinnovationhub.com",
+    "image": "../images/image3.webp",
+    "membership": 3,
+    "description": "Technology and software development"
+  },
+  {
+    "id": 4,
+    "name": "Fresh Farm Produce Co",
+    "address": "321 Agricultural Way, Jos, Plateau",
+    "phone": "+234 8066 778 899",
+    "website": "https://www.freshfarmjos.com",
+    "image": "../images/image4.webp",
+    "membership": 1,
+    "description": "Organic agricultural products and supplies"
+  },
+  {
+    "id": 5,
+    "name": "Jos Trading & Distribution",
+    "address": "654 Commerce Blvd, Jos, Plateau",
+    "phone": "+234 8077 889 900",
+    "website": "https://www.jostrading.com",
+    "image": "../images/image5.webp",
+    "membership": 2,
+    "description": "Wholesale trading and distribution services"
+  },
+  {
+    "id": 6,
+    "name": "Northern Education Initiative",
+    "address": "987 Learning Center, Jos, Plateau",
+    "phone": "+234 8088 990 011",
+    "website": "https://www.northernedu.com",
+    "image": "../images/image6.webp",
+    "membership": 1,
+    "description": "Educational training and development programs"
+  },
+  {
+    "id": 7,
+    "name": "Health & Wellness Clinic",
+    "address": "147 Medical Plaza, Jos, Plateau",
+    "phone": "+234 8099 001 122",
+    "website": "https://www.healthwellnessjos.com",
+    "image": "../images/image7.webp",
+    "membership": 2,
+    "description": "Healthcare and wellness services"
+  }
+]
