@@ -157,7 +157,8 @@ header {
 
 .intro-text {
     /* color: #666; */
-    color: #dddd;
+    /* color: #dddd; */
+    color: white;
     margin-bottom: 1.5rem;
     /* font-size: 0.95rem; */
     font-size: 1.5rem;
