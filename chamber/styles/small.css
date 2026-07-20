@@ -43,7 +43,8 @@ main {
 /* Header Styles */
 header {
     background-color: var(--primary-color);
-    color: var(--text-light);
+    /* color: var(--text-light); */
+    color: white;
     padding: 1.5rem 1rem;
     box-shadow: var(--shadow);
 }
@@ -125,7 +126,8 @@ header {
 
 .nav-menu li a {
     display: block;
-    color: var(--text-light);
+    /* color: var(--text-light); */
+    color: white;
     text-decoration: none;
     padding: 0.75rem 1rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -335,6 +337,7 @@ h1{
     flex-direction: column;
 }
 
+
 /* Footer Styles */
 footer {
     background-color: var(--primary-color);
@@ -432,6 +435,10 @@ button:focus {
     margin-bottom:1rem;
 }
 
+.heroPara{
+    color:white;
+}
+
 .cta-button{
     display:inline-block;
     margin-top:1rem;
@@ -464,6 +471,10 @@ button:focus {
     gap:1rem;
     color: white;
 
+}
+
+.spotlights-grid a{
+    color: white;
 }
 
 .spotlight-card{
