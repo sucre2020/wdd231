@@ -57,6 +57,20 @@
     .footer-content {
         grid-template-columns: repeat(3, 1fr);
     }
+
+
+    /*hero, spotlights*/
+    .info-cards{
+
+    grid-template-columns:2fr 1fr;
+
+    }
+
+    .spotlights-grid{
+
+    grid-template-columns:repeat(3,1fr);
+
+    }
 }
 
 @media (min-width: 1024px) {
