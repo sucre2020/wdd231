@@ -454,7 +454,7 @@ button:focus {
     background: #1b4332;
     padding:1rem;
     border-radius:8px;
-
+    color: white;
     box-shadow:0 2px 5px rgba(0,0,0,.1);
 }
 
@@ -462,6 +462,7 @@ button:focus {
 
     display:grid;
     gap:1rem;
+    color: white;
 
 }
 
@@ -476,6 +477,8 @@ button:focus {
     text-align:center;
 
     box-shadow:0 2px 5px rgba(0,0,0,.1);
+    
+    color: white;
 
 }
 
