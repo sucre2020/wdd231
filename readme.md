@@ -1,3 +1,3 @@
 # WDD 231: Web Frontend Development I
 
-## AUTHOR: Efita Effiom
+## AUTHOR: Efita E. Effiom
