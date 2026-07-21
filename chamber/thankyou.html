@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - JOS Chamber of Commerce</title>
-    <meta name="description" content="JOS Chamber of Commerce home page - connecting local businesses, sharing events, weather, and member spotlights in Jos, Plateau.">
+    <title>Member Directory - JOS Chamber of Commerce</title>
+    <meta name="description" content="Browse the JOS Chamber of Commerce member directory to find local businesses and networking opportunities in Jos, Plateau.">
     <meta name="author" content="Efita Effiom">
-
+    
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="../images/favicon.ico">
-
+    
     <!-- Facebook Meta Tags -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Home - JOS Chamber of Commerce">
-    <meta property="og:description" content="Connecting local businesses through the JOS Chamber of Commerce in Jos, Plateau.">
+    <meta property="og:title" content="Member Directory - JOS Chamber of Commerce">
+    <meta property="og:description" content="Connect with local businesses through the JOS Chamber of Commerce member directory.">
     <meta property="og:image" content="https://sucre2020.github.io/wdd231/chamber/images/l.svg">
-    <meta property="og:url" content="https://sucre2020.github.io/wdd231/chamber/index.html">
-
+    <meta property="og:url" content="https://sucre2020.github.io/wdd231/chamber/directory.html">
+    
     <!-- Preconnect for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,13 +46,13 @@
                 </a>
             </div>
         </div>
-
+        
         <!-- Navigation -->
         <nav class="navbar">
             <button id="menu-toggle" class="menu-toggle">☰ Menu</button>
             <ul id="menu" class="nav-menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="directory.html">Directory</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
                 <li><a href="#">Discover</a></li>
                 <li><a href="join.html">Join</a></li>
             </ul>
@@ -63,59 +63,44 @@
     </header>
 
     <!-- Main Content -->
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <img src="images/jos.webp" alt="image of Jos" class="hero-image">
-            <div class="hero-content">
-                <h1 class="welcomePage">Welcome to the JOS Chamber of Commerce</h1>
-                <p class="heroPara">Connecting businesses, building community, and driving growth in Jos, Plateau.</p>
-                <a href="join.html" class="cta-button">Join the Chamber</a>
-            </div>
-        </section>
+   
+    <main class="thankyou-main">
 
-        <!-- Current Events & Weather -->
-        <section class="info-cards">
-            <div class="events-section">
-                <h2>Current Events</h2>
-                <ul class="events-list">
-                    <li>
-                        <h3>Business Networking Mixer</h3>
-                        <p class="event-date">August 15, 2026 &bull; 6:00 PM</p>
-                        <p>Join fellow business owners and entrepreneurs for an evening of networking, refreshments, and community building at the Chamber Hall.</p>
-                    </li>
-                    <li>
-                        <h3>Small Business Growth Workshop</h3>
-                        <p class="event-date">August 22, 2026 &bull; 10:00 AM</p>
-                        <p>A hands-on workshop covering marketing, finance, and growth strategies for small and medium businesses in Jos.</p>
-                    </li>
-                    <li>
-                        <h3>Annual Chamber Gala</h3>
-                        <p class="event-date">September 5, 2026 &bull; 7:00 PM</p>
-                        <p>Celebrate the achievements of our members at this year's Annual Chamber Gala, featuring awards, dinner, and entertainment.</p>
-                    </li>
-                </ul>
-            </div>
+    <section class="thankyou-card">
 
-            <div class="weather-section">
-                <h2>Jos Weather</h2>
-                <div id="current-weather" class="current-weather">
-                    <p>Loading current weather...</p>
-                </div>
-                <div id="forecast" class="forecast">
-                    <p>Loading forecast...</p>
-                </div>
-            </div>
-        </section>
+        <h1>🎉 Thank You!</h1>
 
-        <!-- Member Spotlights -->
-        <section class="spotlights-section">
-            <h2>Member Spotlights</h2>
-            <div id="spotlights-container" class="spotlights-grid">
-                <p>Loading member spotlights...</p>
-            </div>
-        </section>
-    </main>
+        <p>
+            Thank you for applying for membership with the
+            <strong>JOS Chamber of Commerce</strong>.
+            We have received your application successfully.
+        </p>
+
+        <h2>Application Summary</h2>
+
+        <div class="application-details">
+
+            <p><strong>First Name:</strong> <span id="firstName"></span></p>
+
+            <p><strong>Last Name:</strong> <span id="lastName"></span></p>
+
+            <p><strong>Email:</strong> <span id="email"></span></p>
+
+            <p><strong>Mobile Phone:</strong> <span id="phone"></span></p>
+
+            <p><strong>Business Name:</strong> <span id="business"></span></p>
+
+            <p><strong>Submitted:</strong> <span id="timestampDisplay"></span></p>
+
+        </div>
+
+        <a href="index.html" class="cta-button">
+            Return Home
+        </a>
+
+    </section>
+
+</main>
 
     <!-- Footer -->
     <footer>
@@ -126,7 +111,7 @@
                 <p>📞 +234 8033 445 566</p>
                 <p>📧 info@joschamber.com</p>
             </div>
-
+            
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
@@ -154,9 +139,9 @@
         </div>
     </footer>
 
-    <!-- JavaScript Files -->
-    <script src="scripts/weather.js"></script>
-    <script src="scripts/spotlights.js"></script>
-    <script src="scripts/common.js"></script>
+
+  <!-- JavaScript Files -->
+   <script src="scripts/common.js"></script>
+    <script src="scripts/thankyou.js"></script>
 </body>
 </html>

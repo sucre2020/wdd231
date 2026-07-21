@@ -180,3 +180,28 @@
         transition-duration: 0.01ms !important;
     }
 }
+
+
+/*Join page*/
+@media (min-width:768px){
+
+
+    /* ==========================
+   JOIN PAGE
+========================== */
+
+.join-layout {
+
+    grid-template-columns: 2fr 1fr;
+
+    align-items: start;
+
+}
+
+.membership-section {
+
+    position: sticky;
+
+    top: 1rem;
+
+}}
