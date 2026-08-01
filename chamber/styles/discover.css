@@ -1,6 +1,9 @@
 /* Discover page specific styles */
 .directory-section { padding: 1rem; }
 
+.white-text {
+    color: #FFFFFF !important;
+}   
 
 .visit-message {
   display: none;
