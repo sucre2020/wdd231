@@ -1,0 +1,68 @@
+/* Discover page specific styles */
+.directory-section { padding: 1rem; }
+
+
+.visit-message {
+  display: none;
+  border: 1px solid #ccc;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  /* background: #f8f9fa; */
+  color: #fff;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.visit-message.visible { display: block; }
+.visit-message .close { position: absolute; right: 8px; top: 8px; background: transparent; border: none; font-size: 1.5rem; cursor: pointer; color: #FFFFFF;}
+
+.discover-grid { display: grid; gap: 1rem; align-items: start; }
+.discover-card { background: #fff; padding: 0.75rem; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.discover-card h2 { font-size: 1.1rem; margin: 0 0 0.5rem 0; }
+.discover-card figure { margin: 0 0 0.5rem 0; overflow: hidden; border-radius: 6px; }
+.discover-card figure img { width: 100%; height: 160px; object-fit: cover; display: block; transition: transform 200ms ease, filter 200ms ease; }
+.discover-card address { font-style: normal; color: #555; font-size: 0.95rem; margin-bottom: 0.5rem; }
+.discover-card p { margin: 0 0 0.5rem 0; color: #333; }
+.learn-more { background: #00284d; color: #FFFFFF; border: none; padding: 0.5rem 0.75rem; border-radius: 4px; cursor: pointer; }
+
+/* Small screens: single column with named areas a-h */
+.discover-grid {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f"
+    "g"
+    "h";
+}
+.area-a { grid-area: a; }
+.area-b { grid-area: b; }
+.area-c { grid-area: c; }
+.area-d { grid-area: d; }
+.area-e { grid-area: e; }
+.area-f { grid-area: f; }
+.area-g { grid-area: g; }
+.area-h { grid-area: h; }
+
+/* Medium screens: two-column layout */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .discover-grid { grid-template-columns: repeat(2, 1fr); grid-template-areas:
+      "a b"
+      "c d"
+      "e f"
+      "g h"; }
+}
+
+/* Large screens: four columns (two rows) */
+@media (min-width: 1025px) {
+  .discover-grid { grid-template-columns: repeat(4, 1fr); grid-template-areas:
+      "a b c d"
+      "e f g h"; }
+}
+
+/* Hover effects only for devices that support hover (not mobile) */
+@media (hover: hover) and (pointer: fine) {
+  .discover-card figure img:hover { transform: scale(1.04); filter: brightness(0.95) saturate(1.05); box-shadow: 0 6px 18px rgba(0,0,0,0.12); }
+}

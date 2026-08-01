@@ -7,7 +7,8 @@
 
 :root {
     --primary-color: #1b4332;
-    --secondary-color: #d62828;
+    --secondary-color: #8a1c1c;
+    /* --secondary-color: #d62828; */
     --accent-color: #f4d35e;
 
     --text-dark: #2c2c2c;
@@ -127,7 +128,7 @@ header {
 .nav-menu li a {
     display: block;
     /* color: var(--text-light); */
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 0.75rem 1rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
