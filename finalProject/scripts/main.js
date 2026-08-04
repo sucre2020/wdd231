@@ -1,5 +1,12 @@
+// These store paths used throughout the application.
 const staticBase = './';
 const resourcePath = './scripts/data/resources.json';
+
+// the base folder where static assets are located.
+
+
+// Creates an empty array.
+
 let libraryArticles = [];
 let activeLibraryCategory = 'All';
 let favoriteIds = JSON.parse(localStorage.getItem('libraryFavorites') || '[]');
@@ -17,6 +24,7 @@ const articleModalContent = document.getElementById('articleModalContent');
 const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
 const primaryNavigation = document.getElementById('primary-navigation');
 const supportSummary = document.getElementById('supportSummary');
+
 
 function buildLibraryCategoryButtons() {
   if (!categoryButtonsContainer) {
