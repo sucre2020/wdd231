@@ -814,7 +814,6 @@ button {
   .modal-dialog {
     width: 100%;
   }
-}
 
 @media (min-width: 701px) {
   .site-nav {
