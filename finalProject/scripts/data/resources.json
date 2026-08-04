@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "title": "Morning Sickness",
+    "category": "Pregnancy",
+    "stage": "First Trimester",
+    "readingTime": "4 min",
+    "image": "images/hero-1.webp",
+    "summary": "Learn why morning sickness happens and practical ways to reduce nausea during pregnancy.",
+    "content": "Full article content displayed inside the modal dialog. Morning sickness is common in early pregnancy and can be managed through hydration, small frequent meals, gentle activity, and support from your healthcare provider.",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "First Trimester Nutrition",
+    "category": "Nutrition",
+    "stage": "First Trimester",
+    "readingTime": "5 min",
+    "image": "images/firstTrimester.webp",
+    "summary": "Key nutrients and meal ideas for the first trimester to support your baby’s early development.",
+    "content": "A balanced first trimester diet includes lean protein, whole grains, fruits, vegetables, and prenatal vitamins. Focus on iron, folate, calcium, and hydration for a healthy pregnancy start.",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Safe Pregnancy Exercises",
+    "category": "Exercise",
+    "stage": "All Stages",
+    "readingTime": "6 min",
+    "image": "images/hero-3.webp",
+    "summary": "Gentle moves and stretching routines that support strength, flexibility, and comfort throughout pregnancy.",
+    "content": "Safe exercises during pregnancy include walking, swimming, prenatal yoga, and pelvic floor training. Listen to your body and check with a care provider before starting any new routine.",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Baby Development Week by Week",
+    "category": "Baby Development",
+    "stage": "All Stages",
+    "readingTime": "7 min",
+    "image": "images/hero-4.webp",
+    "summary": "Track how your baby grows during each trimester and learn the milestones to expect along the way.",
+    "content": "From heartbeat development to movement and growth, each week of pregnancy brings new changes. This guide helps you understand your baby’s progress and what to expect at each milestone.",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "title": "Staying Hydrated During Pregnancy",
+    "category": "Nutrition",
+    "stage": "All Stages",
+    "readingTime": "3 min",
+    "image": "images/hero-5.webp",
+    "summary": "Hydration tips to help maintain energy, support circulation, and reduce pregnancy discomfort.",
+    "content": "Proper hydration supports blood volume, digestion, and temperature regulation. Drink water throughout the day, add fruit-infused water, and choose hydrating snacks like watermelon and cucumbers.",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "Managing Pregnancy Fatigue",
+    "category": "Pregnancy",
+    "stage": "First Trimester",
+    "readingTime": "4 min",
+    "image": "images/hero-6.webp",
+    "summary": "Easy strategies to boost your energy and rest well while your body adjusts to pregnancy.",
+    "content": "Pregnancy fatigue is normal, especially in the first trimester. Prioritize sleep, eat balanced meals, stay active with gentle movement, and accept help from friends and family.",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "title": "Preparing for Labor",
+    "category": "Labor",
+    "stage": "Third Trimester",
+    "readingTime": "5 min",
+    "image": "images/hero-7.webp",
+    "summary": "A step-by-step preparation guide to help you feel ready for labor and birth.",
+    "content": "Labor preparation includes building a birth plan, attending antenatal classes, packing your hospital bag, and practicing breathing and comfort techniques.",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "title": "Hospital Bag Checklist",
+    "category": "Labor",
+    "stage": "Third Trimester",
+    "readingTime": "4 min",
+    "image": "images/hero-8.webp",
+    "summary": "A practical checklist of what to pack for you, your baby, and your birth partner.",
+    "content": "Include essentials like comfortable clothing, toiletries, important documents, baby clothes, feeding supplies, and personal comfort items to make your hospital stay easier.",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "title": "Signs of Labor",
+    "category": "Labor",
+    "stage": "Third Trimester",
+    "readingTime": "4 min",
+    "image": "images/hero-9.jpg",
+    "summary": "Learn the common early labor signs and when to contact your healthcare provider.",
+    "content": "Watch for contractions, water breaking, pelvic pressure, and changes in vaginal discharge. Knowing the signs helps you make timely decisions and feel more confident.",
+    "featured": false
+  },
+  {
+    "id": 10,
+    "title": "Breastfeeding Basics",
+    "category": "Breastfeeding",
+    "stage": "Postpartum",
+    "readingTime": "6 min",
+    "image": "images/hero-10.webp",
+    "summary": "Start breastfeeding with essential positioning, latch tips, and feeding frequency guidance.",
+    "content": "Breastfeeding begins with skin-to-skin contact, proper latch, and frequent feeding. Learn to recognize hunger cues and how to manage common challenges with supportive techniques.",
+    "featured": false
+  },
+  {
+    "id": 11,
+    "title": "Postpartum Recovery",
+    "category": "Postpartum",
+    "stage": "Postpartum",
+    "readingTime": "5 min",
+    "image": "images/hero-11.webp",
+    "summary": "Care tips for physical recovery, rest, and gentle movement after birth.",
+    "content": "Postpartum recovery includes rest, pelvic floor exercises, wound care, and monitoring emotional wellbeing. Accept help and create a supportive care plan for the first weeks.",
+    "featured": false
+  },
+  {
+    "id": 12,
+    "title": "Newborn Care Essentials",
+    "category": "Baby Care",
+    "stage": "Postpartum",
+    "readingTime": "6 min",
+    "image": "images/hero-12.webp",
+    "summary": "Practical newborn care skills for feeding, sleeping, diapering, and gentle soothing.",
+    "content": "Newborn care basics include safe sleep, feeding support, bathing, and understanding newborn cues. Build confidence with simple routines and trusted health guidance.",
+    "featured": false
+  },
+  {
+    "id": 13,
+    "title": "Mental Wellness During Pregnancy",
+    "category": "Mental Health",
+    "stage": "All Stages",
+    "readingTime": "5 min",
+    "image": "images/hero-13.webp",
+    "summary": "Self-care practices to support emotional balance, stress reduction, and resilience during pregnancy.",
+    "content": "Mental wellness during pregnancy includes relaxation, social support, mindful breathing, and checking in with a care provider if you feel overwhelmed.",
+    "featured": true
+  },
+  {
+    "id": 14,
+    "title": "Foods to Avoid During Pregnancy",
+    "category": "Nutrition",
+    "stage": "All Stages",
+    "readingTime": "4 min",
+    "image": "images/foodInPregnancy.webp",
+    "summary": "A clear guide to foods and drinks to avoid for a safer, healthier pregnancy.",
+    "content": "Avoid unpasteurized dairy, raw meats, high-mercury fish, and excessive caffeine during pregnancy. Choose nourishing alternatives and follow food safety best practices.",
+    "featured": false
+  },
+  {
+    "id": 15,
+    "title": "Importance of Antenatal Care",
+    "category": "Healthcare",
+    "stage": "All Stages",
+    "readingTime": "5 min",
+    "image": "images/anteNatalCare.webp",
+    "summary": "Why regular antenatal visits matter and what screening tests you can expect.",
+    "content": "Antenatal care helps monitor your health, track fetal growth, identify risks early, and provide education on pregnancy and birth planning.",
+    "featured": false
+  }
+]

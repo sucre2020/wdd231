@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maternix | Pregnancy and Postpartum Support</title>
+  <meta name="description" content="Maternix is a comprehensive platform that provides personalized support and guidance for expectant mothers, helping them navigate pregnancy, birth, and postpartum recovery with confidence.">
+  <meta name="author" content="Efita Effiom">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Maternix | Pregnancy and Postpartum Support">
+  <meta property="og:description" content="Maternix is a comprehensive platform that provides personalized support and guidance for expectant mothers, helping them navigate pregnancy, birth, and postpartum recovery with confidence.">
+  <meta property="og:image" content="https://sucre2020.github.io/wdd231/finalProject/images/maternixLogo.jpeg">
+  <meta property="og:url" content="https://sucre2020.github.io/wdd231/finalProject/index.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <img class="brand-logo" src="images/maternixLogo.jpeg" alt="Maternix logo">
+        <span>maternix</span>
+      </a>
+      <button class="mobile-menu-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open main menu"></button>
+      <nav id="primary-navigation" class="site-nav" aria-label="Main navigation">
+        <a class="nav-link" href="support.html">Support</a>
+        <a class="nav-link" href="faqs.html">FAQs</a>
+        <a class="nav-link" href="plans.html">Plans</a>
+      </nav>
+      <a class="btn btn-primary" href="plans.html">Start Your Journey</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section" id="top">
+      <div class="container hero-grid">
+        <div>
+          <span class="badge badge-soft">Trusted pregnancy support</span>
+          <h1>Pregnant? Let Maternix guide you every step of the way.</h1>
+          <p class="hero-copy">Maternix combines smart digital tools with access to licensed nurses and midwives to help you feel confident through pregnancy, birth, postpartum recovery, and your baby’s early years.</p>
+          <div class="hero-features">
+            <p>🤰 Personalized pregnancy journey tracking</p>
+            <p>🌱 Trying-to-conceive guidance and educational resources</p>
+            <p>📅 Antenatal appointment scheduling and reminders</p>
+            <p>💊 Medication and prenatal vitamin reminders</p>
+            <p>👶 Week-by-week baby development updates</p>
+            <p>❤️ Personalized health tips based on your pregnancy stage</p>
+            <p>🥗 Nutrition and healthy lifestyle guidance</p>
+            <p>🏃 Safe pregnancy exercise recommendations</p>
+            <p>📝 Daily health journal (symptoms, mood, sleep, hydration, weight, and notes)</p>
+            <p>👣 Baby kick counter and movement tracker</p>
+            <p>⏱️ Contraction timer for labour preparation</p>
+            <p>🎒 Hospital bag and delivery preparation checklist</p>
+            <p>🚨 Education on pregnancy warning signs and when to seek urgent medical care</p>
+            <p>🤱 Breastfeeding education and support resources</p>
+            <p>🩺 Postpartum recovery guidance</p>
+            <p>💉 Baby vaccination schedule and reminders</p>
+            <p>📈 Baby growth and developmental milestone tracking</p>
+            <p>💬 Direct WhatsApp support from licensed healthcare professionals during service hours</p>
+            <p>📞 Phone consultations with licensed healthcare professionals</p>
+            <p>🔔 Smart reminders for appointments, medications, and important milestones</p>
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="#library">Browse Articles</a>
+            <a class="btn btn-secondary btn-lg" href="support.html">Contact Support</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-inner">
+            <h3>What brings you to Maternix today?</h3>
+            <div class="hero-image-wrapper">
+              <img class="hero-image" src="images/hero-1.webp" alt="Maternix hero image">
+            </div>
+            <div class="hero-options">
+              <div class="option-card">
+                <h6>I’m Pregnant</h6>
+                <p>Receive week-by-week guidance, reminders, and support from a trusted clinical team.</p>
+              </div>
+              <div class="option-card">
+                <h6>I’m Trying to Conceive</h6>
+                <p>Explore fertility tips, lifestyle guidance, and how to prepare for the next step.</p>
+              </div>
+              <div class="option-card">
+                <h6>I’ve Just Had My Baby</h6>
+                <p>Get postpartum support, recovery check-ins, and newborn care advice.</p>
+              </div>
+              <div class="option-card">
+                <h6>I’m Supporting My Partner</h6>
+                <p>Access practical tools and reassurance for your partner’s pregnancy or recovery journey.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="library-section" id="library">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="badge badge-soft">Pregnancy Library</span>
+          <h2>Explore trusted pregnancy and maternal health resources</h2>
+          <p class="section-copy">Search articles by title, category, stage, or keyword. Read summaries in the modal and save favorites for later.</p>
+        </div>
+
+        <div class="library-controls">
+          <input id="articleSearch" class="search-input" type="search" placeholder="Search articles by title, category, or stage" aria-label="Search articles">
+          <div id="categoryButtons" class="category-buttons"></div>
+        </div>
+
+        <div id="libraryGrid" class="cards-grid"></div>
+      </div>
+
+      <div class="modal-overlay" id="articleModal" aria-hidden="true">
+        <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="articleModalLabel">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div>
+                <p class="modal-tag" id="articleModalCategory"></p>
+                <h3 id="articleModalLabel"></h3>
+                <div class="modal-meta" id="articleMeta"></div>
+              </div>
+              <button class="btn-close" id="modalCloseButton" aria-label="Close modal"></button>
+            </div>
+            <div class="modal-body">
+              <p class="text-muted" id="articleModalSummary"></p>
+              <div id="articleModalContent"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-card">
+        <h2>Your care should feel clear, warm, and supported.</h2>
+        <p class="section-copy">Maternix uses AI as an assistant, while licensed healthcare professionals provide the personalized advice that matters most.</p>
+        <a class="btn btn-primary btn-lg" href="support.html">Start Your Journey</a>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-card">
+        <h2>Your care should feel clear, warm, and supported.</h2>
+        <p class="section-copy">Maternix uses AI as an assistant, while licensed healthcare professionals provide the personalized advice that matters most.</p>
+        <a class="btn btn-primary btn-lg" href="#support">Start Your Journey</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <!-- <p>Maternix supports families with trusted guidance, compassionate care, and practical tools.</p> -->
+      <p> Efita Effiom | Maternix. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maternix FAQs</title>
+  <meta name="description" content="Frequently asked questions about pregnancy, postpartum, and maternal health support from Maternix.">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Maternix | Pregnancy and Postpartum Support">
+  <meta property="og:description" content="Maternix is a comprehensive platform that provides personalized support and guidance for expectant mothers, helping them navigate pregnancy, birth, and postpartum recovery with confidence.">
+  <meta property="og:image" content="https://sucre2020.github.io/wdd231/finalProject/images/maternixLogo.jpeg">
+  <meta property="og:url" content="https://sucre2020.github.io/wdd231/finalProject/faqs.html">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="images/maternixLogo.jpeg" alt="Maternix logo">
+        <span>maternix</span>
+      </a>
+      <button class="mobile-menu-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open main menu"></button>
+      <nav id="primary-navigation" class="site-nav" aria-label="Main navigation">
+        <a class="nav-link" href="support.html">Support</a>
+        <a class="nav-link active-page" aria-current="page" href="faqs.html">FAQs</a>
+        <a class="nav-link" href="plans.html">Plans</a>
+      </nav>
+      <a class="btn btn-primary" href="index.html">Home</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="faqs-section">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2>Frequently asked questions</h2>
+          <p class="section-copy">Search by topic and quickly find the guidance you need.</p>
+        </div>
+        <div class="faq-controls">
+          <input id="faqSearch" class="search-input" type="search" placeholder="Search questions or topics" aria-label="Search FAQs">
+          <div class="category-buttons faq-category-buttons">
+            <button class="category-button active" data-category="All">All</button>
+            <button class="category-button" data-category="Pregnancy">Pregnancy</button>
+            <button class="category-button" data-category="Nutrition">Nutrition</button>
+            <button class="category-button" data-category="Labor">Labor</button>
+            <button class="category-button" data-category="Breastfeeding">Breastfeeding</button>
+            <button class="category-button" data-category="Mental Health">Mental Health</button>
+            <button class="category-button" data-category="Healthcare">Healthcare</button>
+          </div>
+        </div>
+        <div class="cards-grid faq-grid">
+          <article class="card faq-card" data-category="Pregnancy" data-search="What are the first signs of pregnancy? Learn the earliest symptoms many expectant mothers notice.">
+            <p class="tag">Pregnancy</p>
+            <h5>What are the first signs of pregnancy?</h5>
+            <p class="text-muted">Learn the earliest symptoms many expectant mothers notice.</p>
+          </article>
+          <article class="card faq-card" data-category="Nutrition" data-search="How can I eat well in the first trimester? See gentle meal ideas and key nutrients for early pregnancy.">
+            <p class="tag">Nutrition</p>
+            <h5>How can I eat well in the first trimester?</h5>
+            <p class="text-muted">See gentle meal ideas and key nutrients for early pregnancy.</p>
+          </article>
+          <article class="card faq-card" data-category="Labor" data-search="When should I go to the hospital? Know the common early labor signs and when to contact your care provider.">
+            <p class="tag">Labor</p>
+            <h5>When should I go to the hospital?</h5>
+            <p class="text-muted">Know the common early labor signs and when to contact your care provider.</p>
+          </article>
+          <article class="card faq-card" data-category="Breastfeeding" data-search="How do I start breastfeeding successfully? Get positioning and latch tips for the first feed.">
+            <p class="tag">Breastfeeding</p>
+            <h5>How do I start breastfeeding successfully?</h5>
+            <p class="text-muted">Get positioning and latch tips for the first feed.</p>
+          </article>
+          <article class="card faq-card" data-category="Mental Health" data-search="How can I manage stress during pregnancy? Discover self-care practices that support emotional balance.">
+            <p class="tag">Mental Health</p>
+            <h5>How can I manage stress during pregnancy?</h5>
+            <p class="text-muted">Discover self-care practices that support emotional balance.</p>
+          </article>
+          <article class="card faq-card" data-category="Healthcare" data-search="What should I expect at my antenatal visits? Learn the key checks and tests performed at each appointment.">
+            <p class="tag">Healthcare</p>
+            <h5>What should I expect at my antenatal visits?</h5>
+            <p class="text-muted">Learn the key checks and tests performed at each appointment.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+            <p> Efita Effiom | Maternix. All rights reserved.</p>
+      <!-- <p>Maternix supports families with trusted guidance, compassionate care, and practical tools.</p> -->
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maternix Support</title>
+  <meta name="description" content="Connect with a licensed healthcare professional for pregnancy and postpartum advice.">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Maternix | Pregnancy and Postpartum Support">
+  <meta property="og:description" content="Maternix is a comprehensive platform that provides personalized support and guidance for expectant mothers, helping them navigate pregnancy, birth, and postpartum recovery with confidence.">
+  <meta property="og:image" content="https://sucre2020.github.io/wdd231/finalProject/images/maternixLogo.jpeg">
+  <meta property="og:url" content="https://sucre2020.github.io/wdd231/finalProject/support.html">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="images/maternixLogo.jpeg" alt="Maternix logo">
+        <span>maternix</span>
+      </a>
+      <button class="mobile-menu-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open main menu"></button>
+      <nav id="primary-navigation" class="site-nav" aria-label="Main navigation">
+        <a class="nav-link active-page" aria-current="page" href="support.html">Support</a>
+        <a class="nav-link" href="faqs.html">FAQs</a>
+        <a class="nav-link" href="plans.html">Plans</a>
+      </nav>
+      <a class="btn btn-primary" href="index.html">Home</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="support-section">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="badge badge-soft">Flagship feature</span>
+          <h2>Chat with a healthcare professional</h2>
+          <p class="section-copy">Maternix makes expert support available in a way that feels safe, clear, and approachable.</p>
+        </div>
+        <div class="cards-grid support-grid">
+          <article class="card support-card">
+            <h5>Chat with a licensed nurse</h5>
+            <p>Send a message and receive expert pregnancy or postpartum support from a qualified clinician.</p>
+          </article>
+          <article class="card support-card">
+            <h5>Phone consultation</h5>
+            <p>Book a live phone session with a registered midwife or nurse for personalized guidance.</p>
+          </article>
+          <article class="card support-card">
+            <h5>Care plan review</h5>
+            <p>Get help understanding lab results, medication plans, and next steps for your pregnancy health.</p>
+          </article>
+        </div>
+        <div class="alert alert-warning">Our team will respond within approximately 10 minutes during service hours. If you have severe bleeding, difficulty breathing, seizures, or other emergency symptoms, please seek immediate emergency medical care.</div>
+
+        <form class="support-form" method="get" action="support-action.html">
+          <div class="support-field">
+            <label for="supportName">Full name</label>
+            <input id="supportName" name="name" type="text" required placeholder="Enter your full name">
+          </div>
+          <div class="support-field">
+            <label for="supportEmail">Email address</label>
+            <input id="supportEmail" name="email" type="email" required placeholder="Enter your email address">
+          </div>
+          <div class="support-field">
+            <label for="supportPhone">Phone number</label>
+            <input id="supportPhone" name="phone" type="tel" placeholder="Optional phone number">
+          </div>
+          <div class="support-field">
+            <label for="supportReason">Type of support</label>
+            <select id="supportReason" name="reason" required>
+              <option value="">Choose one</option>
+              <option value="Chat with a nurse">Chat with a nurse</option>
+              <option value="Phone consultation">Phone consultation</option>
+              <option value="Care plan review">Care plan review</option>
+              <option value="Other question">Other question</option>
+            </select>
+          </div>
+          <div class="support-field">
+            <label for="supportMessage">Tell us how we can help</label>
+            <textarea id="supportMessage" name="message" required placeholder="Share the details of your request"></textarea>
+          </div>
+          <p class="support-form-note">Required information will be shown on the next page when you submit.</p>
+          <button class="btn btn-primary" type="submit">Review support request</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p> Efita Effiom | Maternix. All rights reserved.</p>
+      <!-- <p>Maternix supports families with trusted guidance, compassionate care, and practical tools.</p> -->
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
