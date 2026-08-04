@@ -113,7 +113,8 @@ button {
 
 .nav-link.active-page,
 .nav-link[aria-current="page"] {
-  color: #1d4ed8;
+  /* color: #1d4ed8; */
+  color:#5a1732;
   font-weight: 700;
 }
 
@@ -470,12 +471,6 @@ button {
   border-color: #f5c2c7;
 }
 
-.alert-error {
-  background: #fde2e8;
-  color: #842029;
-  border-color: #f5c2c7;
-}
-
 .support-form {
   display: grid;
   gap: 1rem;
@@ -752,69 +747,6 @@ button {
   text-align: center;
 }
 
-@media (max-width: 900px) {
-  .hero-grid,
-  .hero-options,
-  .support-grid,
-  .plans-grid,
-  .faq-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-features {
-    grid-template-columns: 1fr;
-  }
-}
-
-  .header-inner {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 1rem;
-  }
-
-  .site-nav {
-    position: absolute;
-    top: calc(100% + 0.5rem);
-    left: 0;
-    right: 0;
-    background: #ffffff;
-    flex-direction: column;
-    gap: 0;
-    padding: 1rem 1.5rem 1.25rem;
-    border: 1px solid rgba(15, 23, 42, 0.08);
-    border-radius: 1.5rem;
-    display: none;
-  }
-
-  .site-nav.open {
-    display: flex;
-  }
-
-  .site-nav a {
-    display: block;
-    width: 100%;
-    padding: 0.75rem 0;
-    border-radius: 0.75rem;
-  }
-
-  .site-nav a:hover,
-  .site-nav a:focus {
-    background: #f8f6f9;
-  }
-
-  .mobile-menu-toggle {
-    display: inline-flex;
-  }
-
-  .hero-actions {
-    flex-direction: column;
-  }
-
-  .hero-card-inner,
-  .modal-dialog {
-    width: 100%;
-  }
-
 @media (min-width: 701px) {
   .site-nav {
     display: flex;
@@ -828,4 +760,3 @@ button {
     display: none;
   }
 }
-
